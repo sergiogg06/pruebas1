@@ -20,3 +20,16 @@ ul li a {
 #parrafo_1{
     font-style: italic;
 }
+
+body, header, footer, aside{
+    margin: 1vw;
+    padding: 2vw;
+}
+.elemento {
+    height: 50vh; /* La altura del elemento será el 50% del alto del viewport */
+    width: 75vw; /* El ancho del elemento será el 75% del ancho del viewport */
+  }
+  .contenedor {
+    margin-top: 10vh; /* Margen superior del 10% del alto del viewport */
+    margin-right: 5vw; /* Margen derecho del 5% del ancho del viewport */
+  }
